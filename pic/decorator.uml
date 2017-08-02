@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.chenlt.deepjavaweb.decorator</OriginalElement>
+  <nodes>
+    <node x="0.0" y="160.0">com.chenlt.deepjavaweb.decorator.ConcreteDecorator</node>
+    <node x="46.5" y="0.0">com.chenlt.deepjavaweb.decorator.Component</node>
+    <node x="28.0" y="80.0">com.chenlt.deepjavaweb.decorator.Decorator</node>
+    <node x="144.0" y="80.0">com.chenlt.deepjavaweb.decorator.ConcreteComponent</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.chenlt.deepjavaweb.decorator.ConcreteComponent" target="com.chenlt.deepjavaweb.decorator.Component">
+      <point x="0.0" y="-15.0" />
+      <point x="225.5" y="55.0" />
+      <point x="135.66666666666666" y="55.0" />
+      <point x="35.66666666666666" y="15.0" />
+    </edge>
+    <edge source="com.chenlt.deepjavaweb.decorator.Decorator" target="com.chenlt.deepjavaweb.decorator.Component">
+      <point x="-24.0" y="-15.0" />
+      <point x="52.0" y="55.0" />
+      <point x="64.33333333333334" y="55.0" />
+      <point x="-35.66666666666666" y="15.0" />
+    </edge>
+    <edge source="com.chenlt.deepjavaweb.decorator.ConcreteDecorator" target="com.chenlt.deepjavaweb.decorator.Decorator">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="153.5" y="95.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
